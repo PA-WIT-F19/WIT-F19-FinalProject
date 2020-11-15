@@ -1,0 +1,322 @@
+/* mian color
+ **background-color: rgb(255,246,0);
+ **background-color:rgb(1,28,78);
+ */ 
+body{
+   
+}
+/* start styling the top part of nav */
+.logo{
+    background-color: rgb(255,246,0);
+    padding: 0% 2% 0% 2%;
+}
+.logo div{
+    display: inline-block;
+    float: right;
+}
+#nav_left img{
+    width: 200px; 
+    padding: 0;
+    margin: 0; 
+}
+#right{
+    visibility: hidden;
+}
+#right a{
+    text-decoration: none;
+    padding:3%;
+    color: rgb(1,28,78);
+}
+   
+#right ul li{
+    list-style-type:none;
+    display:inline-block;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    top: -18px;
+    font-size: 18px;
+    border:3px solid rgb(1,28,78);
+    border-radius: 25%;
+    font-weight: bold;  
+}
+
+
+/* end styling the top part of nav */
+
+/* start styling the bottom part of nav */
+
+.nav{
+    text-align: center;
+    border-bottom: 3px solid  rgb(255,246,0);
+    padding: 0;
+    margin: 0px;
+    
+}
+.nav ul{
+    margin: 0% 0% 0% 12%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 10px 15px 10px;
+    font-size: 20px;
+    
+}
+.nav li a{
+    color: rgb(1,28,78);
+    text-decoration: none;
+   
+}
+
+.nav li a:hover{
+    border: 1px solid rgb(1,28,78);
+    padding: 3px;
+    box-shadow: 5px 10px 18px #888888;
+    background-color:rgb(1,28,78);
+    color:white;
+    border-radius: 3%;
+}
+
+/* end styling the bottom part of nav */
+
+/* start styling the main header part  */
+#header-main{
+    background:linear-gradient(rgba(0,0,40,.5), rgba(0,0,0,.5)), url("../images/Information-Technology-1.jpg");
+    border-bottom: 3px solid rgb(255,246,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-main h1{
+    text-align: center;
+    padding: 15% 15% 0% 15%;
+    color: white;
+}
+#header-main h1 span{
+    font-size: 45px;
+    display: block;
+    border:3px solid rgb(255,246,0);
+    padding: 10px 7px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px
+}
+
+#header-main h3{
+    text-align: center;
+    margin-top: 0 auto;
+    padding-bottom: 13%;
+
+}
+
+#header-main h3 a {
+    color: rgb(255,246,0);
+    
+}
+#header-main h3 a:hover {
+    color: white;
+}
+/* end of header styling */
+/*https://www.bmc.com/blogs/what-is-it-infrastructure-and-what-are-its-components/*/
+/*start styling the main part*/
+@keyframes example {
+    from {left: -450px;}
+    to {left: 0px;}
+  }
+
+div.left {
+    position: relative;
+    width: 50%;
+    background-image: url('../images/TechGraphic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    animation-name: example;
+    animation-duration: 2s;
+    float: left;
+}
+
+@keyframes goIn {
+    from {right: -500px;}
+    to {right: 0px;}
+  }
+#main_right{
+    text-align: center;
+    color: rgb(1,28,78);
+    width: 48%;
+    float: left;
+    padding: 5px;
+}
+
+#main_right h1{
+    font-size: 80px;
+    margin-top: 0px;
+    padding-top: 140px;
+}
+
+#main_right p{
+    font-size: 26px;
+    padding-bottom: 50px;
+
+}
+
+.right{
+    animation-name: goIn;
+    animation-duration: 2s;
+    position: relative;
+}
+main{
+    display: inline-block;
+}
+/* end styling about us section */
+
+/* start styling sections */
+
+@keyframes fadeIn {
+    from { opacity: 0; bottom: 50px; }
+    to { opacity: 1; bottom:0px;}
+}
+
+#section{
+    text-align: center;
+    display: block;
+    margin: 3%;
+}
+#section h1{
+    color: rgb(1,28,78);
+}
+
+div.sections{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 40vh;
+    margin: 2%;
+    border: 3px solid rgb(255,246,0);
+    color: rgb(1,28,78);
+    padding: 1%; 
+    border-radius: 3%;
+}
+div.sections svg{
+    border: 4px solid rgba(155,155,155,0.4);
+    box-shadow: 2.5px 5px 4px 5px #888888;
+    padding: 1%;
+    border-radius: 50%;
+}
+div.sections h3{
+    font-weight: bold;
+    font-size: x-large ;
+}
+
+div.sections button{
+    padding: 4% 6% 4% 6%;
+    border-radius: 3%;
+    color: white;
+    background-color: rgb(1,28,78);
+    margin-top:1%;
+}
+div.sections button:hover{
+    background-color:rgb(255,246,0);
+}
+.section_animation{
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+/* end styling of main part */
+
+/* start styling of the footer */
+footer{
+    display: block;
+    background-color: rgb(1,28,78);
+}
+#footer_left{
+    width: 27%;
+    display: block;
+    float: left;
+}
+#footer_left img{
+  width: 50%;
+  padding: 15% 0% 15% 15%;
+  
+}
+
+#footer_center{
+    display: block;
+    border:3px solid rgb(255,246,0);
+}
+#footer_center_left , #footer_center_right,#footer_center_center{
+    display: inline-block;
+    float: left;
+    padding: 2%;
+    font-size: larger;
+}
+
+#footer_center li{
+    list-style-type: none;
+}
+
+#footer_center a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+#footer_center a:hover{
+    text-decoration: none;
+    color:rgb(255,246,0);
+}
+#footer_right{
+    padding-right: 50px;
+    float: left;
+    color:whitesmoke;
+    padding:2% 2.5% 1.5% 5%;
+}
+input[type=submit]{
+    background-color: rgb(255,246,0);
+    color: rgb(1,28,78);
+}
+/* end of styling footer */
+@media screen and (max-width: 520px) {
+   #right{
+        display: none;
+    }
+    .nav li{
+        display: block;
+        box-shadow: 2.5px 5px 4px 5px rgba(155,155,155,0.5);
+        background-color: rgb(1,28,78);
+    }
+    .nav li a{
+        color: whitesmoke;
+    }
+    .nav{
+        margin: 1% 0% 1% -25%;
+        padding: 0% ;
+        display: block;
+        border-bottom: 5px solid rgb(255,246,0);
+    }
+    .nav ul{
+        display: block;
+    }
+     #main_right{
+        width: 100%;
+    }
+    #left{
+        width: 100%;
+    }
+    .sections{
+        overflow: scroll;
+    }
+    #footer_left{
+        width: 100%;
+        display: block;
+        
+    }
+    #footer_center,#footer_center_left, #footer_center_center,
+    #footer_center_right, #footer_right{
+        display: block;
+        background-color: rgb(1,28,78);
+    }
+}
